@@ -1,8 +1,7 @@
-var expect = require('chai').expect;
-var Inn = require('../');
+const Inn = require('../');
 
-describe('Gilded Rose', function () {
-  it('should do something', function () {
-    expect(typeof Inn).to.equal('function');
-  });
+describe('Gilded Rose', () => {
+    it('should do something', () => {
+        expect(typeof Inn).toEqual('function');
+    });
 });
