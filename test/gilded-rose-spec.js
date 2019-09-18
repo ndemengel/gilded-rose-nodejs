@@ -168,7 +168,7 @@ describe('Gilded Rose', () => {
 
         // then
         expect(conjuredManaCake().quality).toEqual(2);
-        expect(conjuredMuffin().quality).toEqual(1);
+        expect(conjuredMuffin().quality).toEqual(0);
     });
 
     function makeALongTimePass() {
